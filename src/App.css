@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
 body{
     margin:0;
+    font-family: 'Press Start 2P', sans-serif;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(255, 132, 0, 0), rgb(255, 162, 0));
+   
+}
+/* <-------------------- Nav Bar ------------------> */
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(23, 73, 180);
+    padding: 0 30px;
+  }
+  
+  
+  nav ul{
+      list-style: none;
+      
+     }
+  nav li {
+         display: inline-block;
+         margin-right: 20px ;
+         font-size: 25px;
+     }
+a{
+    text-decoration: none;
 }
 
 /* <-------------------- Joke Page ------------------> */
@@ -9,6 +32,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+   
 }
 
 .form{
@@ -19,6 +43,7 @@ body{
     justify-content: center;  
     align-content: center;
     margin-top: 100px;
+    font-family: 'Press Start 2P', sans-serif;
 }
 .form-input{
     height: 35px;
@@ -27,6 +52,7 @@ body{
     text-decoration: none;
     border: none;
     background-color: #9fd6e8;
+    font-family: 'Press Start 2P', sans-serif;
     
 }
 .form-input::placeholder{
@@ -46,9 +72,16 @@ body{
     width: 200px;
     border-radius: 10px;
     margin-left: 25%;
+    font-family: 'Press Start 2P', sans-serif;
 }
 
 .joke{
     margin-top: 45px;
     height: fit-content;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+ border-radius: 75%;
 }
